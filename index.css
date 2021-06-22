@@ -1,0 +1,84 @@
+.commentInput,
+.InsideBoxCommentInput
+{
+    padding: 12px 20px;
+    margin: 0px;
+    display: block;
+    border: 1px;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 25px;
+    width: 260px;
+    outline:none;
+}
+.InsideBoxCommentInput{
+    padding: 2px 3px;
+    border: none;
+}
+#commentArea{
+    display: block;
+    width: 300px;
+}
+
+.blueLink,
+.cancelLink
+{
+    color:#666666;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#header
+{
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+}
+
+#commentsView{
+    display: block;
+    width: 300px;
+    margin: 8px;
+}
+
+.actionPart{
+    padding-top: 5px;
+    clear: both;
+}
+
+.commentsPart{
+    background-color:#f2f2f2;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 8px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.button
+{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius :15px;
+    margin: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+}
+.overallComment{
+    padding-top: 5px;
+    margin: 10px;
+}
+
+.formArea{
+    width: 100%;
+    margin: 0 auto; 
+    width:300px;
+}

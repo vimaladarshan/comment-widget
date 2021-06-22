@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload="loadComments()" id="container">
+        <div class="formArea">
+            <div id= "header">
+                <h2>
+                    Comment Box
+                </h2>
+            </div>
+            <div id = "commentArea">
+                    <form id="myForm">
+                        <input type="text" class="commentInput" name="comment" id="comment" cols="30" rows="1" placeholder="Add comment">
+                        <input type="button" class="button" onclick="addComment()" value="Post">
+                    </form>
+            </div>
+            <div id="commentsView" >
+                
+            </div>
+        </div>
+    </body>
+</html>
