@@ -1,4 +1,15 @@
 var count = 0;
+window.addEventListener('online',  updateOnlineStatus);
+window.addEventListener('offline', updateOnlineStatus);
+
+function updateOnlineStatus(event) {
+  var condition = navigator.onLine ? alert("online") : alert("offline");
+}
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+  .register('sw.js')
+  .then(function() { console.log("Service Worker Registered"); });
+};
 var comments = [
   {
     "comment_id": 1,
